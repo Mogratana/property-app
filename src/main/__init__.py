@@ -107,7 +107,7 @@ def create_app(config):
         subscriptions_controller.init_app(app=app)
         flutterwave_payments.init_app(app=app)
 
-        firewall.init_app(app=app)
+        # firewall.init_app(app=app)
         send_mail.init_app(app=app)
         invoice_man.init_app(app=app)
 
